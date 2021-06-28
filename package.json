@@ -1,0 +1,27 @@
+{
+	"name": "blog",
+	"version": "1.0.0",
+	"description": "dulinyu-blog",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vuepress dev docs",
+		"build": "vuepress build docs",
+		"deploy": "npm run build && gh-pages -d docs/.vuepress/dist",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "\u0016https://github.com/zhangdulin/dulinyu-blog"
+	},
+	"keywords": [
+		"dulinyu",
+		"blog"
+	],
+	"author": "dulinyu",
+	"license": "ISC",
+	"devDependencies": {
+		"gh-pages": "^3.2.1",
+		"vuepress": "^2.0.0-beta.20",
+		"@vuepress/plugin-search": "^2.0.0-beta.20"
+	}
+}
