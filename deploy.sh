@@ -1,12 +1,3 @@
-###
- # @Author: zhangyu
- # @Email: zhangdulin@outlook.com
- # @Date: 2021-06-28 18:04:44
- # @LastEditors: zhangyu
- # @LastEditTime: 2021-06-29 09:06:12
- # @Description: 
-### 
-
 #!/usr/bin/env sh
 
 # 确保脚本抛出遇到的错误
@@ -29,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 cd -
