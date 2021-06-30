@@ -3,14 +3,14 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-06-30 13:34:45
+ * @LastEditTime: 2021-06-30 13:55:35
  * @Description:
  */
 module.exports = {
 	lang: "zh-CN",
 	title: "dulinyu",
 	description: "blog",
-	// base: "", // 设置站点根路径
+	base: "/dulinyu-blog/", // 设置站点根路径
 	// dest: './ROOT',  // 设置输出目录
 	// port: 8086,
 	plugins: [
