@@ -17,6 +17,6 @@ features:
   - title: 随笔
     details: 记录。
   - title: 个人经历
-    details: 时间里的事test。
+    details: 时间里的事test1。
     footer: MIT Licensed | Copyright © 2018-present dulinyu
 ---
