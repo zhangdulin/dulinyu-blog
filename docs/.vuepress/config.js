@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-06-30 13:58:25
+ * @LastEditTime: 2021-06-30 17:22:53
  * @Description:
  */
 module.exports = {
@@ -77,12 +77,14 @@ module.exports = {
 		// 	},
 		// },
 		navbar: [
-			// NavbarItem
-			// {
-			// 	text: "博客文章",
-			// 	link: "/guide/",
-			// 	icon: "reco-blog",
-			// },
+			{
+				text: "javaScript",
+				link: "/javaScript/",
+			},
+			{
+				text: "关于我的",
+				link: "/my/",
+			},
 			{
 				text: "CSDN",
 				link: "https://blog.csdn.net/mrzhangdulin",
@@ -97,7 +99,7 @@ module.exports = {
 			},
 			{
 				text: "今日头条",
-				link: "",
+				link: "https://www.toutiao.com/c/user/token/MS4wLjABAAAAxCsnlFn8SrtzOHSdeJV7WiXPLkw_OcjBL6pDIak2JUk/?tab=video",
 			},
 			// reco-zhihu
 			// reco-juejin
@@ -122,73 +124,82 @@ module.exports = {
 		],
 		// 侧边栏数组
 		// 所有页面会使用相同的侧边栏
-		sidebar: [
+		sidebar: {
 			// SidebarItem
-			{
-				isGroup: true,
-				text: "目录",
-				link: "/guide/",
-				children: [
-					// SidebarItem
-					{
-						text: "文章列表",
-						link: "/guide/index.md",
-						// children: [],
-					},
-				],
-			},
-			// SidebarGroup
-			{
-				isGroup: true,
-				text: "前端",
-				link: "/frondend/",
-				// collapsable: false, // 可选的, 默认值是 true,
-				// sidebarDepth: 2, // 可选的, 默认值是 1
-				children: [
-					// SidebarItem
-					{
-						text: "工具类",
-						link: "/frondend/utils.md",
-						// children: [],
-					},
-				],
-			},
-			// 字符串 - 页面文件路径
-			// "/bar/README.md",
-			{
-				isGroup: true,
-				text: "随笔",
-				link: "/essay/",
-				children: [
-					{
-						text: "工具类",
-						link: "/essay/index.md",
-					},
-				],
-			},
-			{
-				isGroup: true,
-				text: "复盘",
-				link: "/summarize/",
-				children: [
-					{
-						text: "工具类",
-						link: "/summarize/index.md",
-					},
-				],
-			},
-			{
-				isGroup: true,
-				text: "关于我",
-				link: "/me/",
-				children: [
-					{
-						text: "前时间",
-						link: "/me/index.md",
-					},
-				],
-			},
-		],
+			"/me/": [
+				{
+					isGroup: true,
+					text: "目录",
+					link: "/me/guide/",
+					children: [
+						// SidebarItem
+						{
+							text: "文章列表",
+							link: "/me/guide/index.md",
+							// children: [],
+						},
+					],
+				},
+				// 字符串 - 页面文件路径
+				{
+					isGroup: true,
+					text: "随笔",
+					link: "/me/essay/",
+					children: [
+						{
+							text: "随笔1",
+							link: "/me/essay/index.md",
+						},
+					],
+				},
+				{
+					isGroup: true,
+					text: "复盘",
+					link: "/me/summarize/",
+					children: [
+						{
+							text: "2021",
+							link: "/me/summarize/index.md",
+						},
+					],
+				},
+				{
+					text: "我就是我",
+					link: "/me/index.md",
+				},
+			],
+			"/javaScript/": [
+				{
+					isGroup: true,
+					text: "目录",
+					link: "/javaScript/guide/",
+					children: [
+						// SidebarItem
+						{
+							text: "文章列表",
+							link: "/javaScript/guide/index.md",
+							// children: [],
+						},
+					],
+				},
+				// SidebarGroup
+				{
+					isGroup: true,
+					text: "前端",
+					link: "/javaScript/frondend/",
+					// collapsable: false, // 可选的, 默认值是 true,
+					// sidebarDepth: 2, // 可选的, 默认值是 1
+					children: [
+						// SidebarItem
+						{
+							text: "工具类",
+							link: "/javaScript/frondend/utils.md",
+							// children: [],
+						},
+					],
+				},
+			],
+		},
 		// 为以下路由添加左侧边栏
 		// sidebarDepth: 1, //左侧导航显示的层级
 		// lastUpdated: "Last Updated",
