@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-06-30 17:22:53
+ * @LastEditTime: 2021-06-30 17:29:01
  * @Description:
  */
 module.exports = {
@@ -79,11 +79,11 @@ module.exports = {
 		navbar: [
 			{
 				text: "javaScript",
-				link: "/javaScript/",
+				link: "/javaScript/guide/index.md",
 			},
 			{
 				text: "关于我的",
-				link: "/my/",
+				link: "/me/guide/index.md",
 			},
 			{
 				text: "CSDN",
