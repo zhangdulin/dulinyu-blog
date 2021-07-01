@@ -39,6 +39,10 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn
 
+      # 删除dist文件夹
+      - name: delet dist
+        run: rm -r dist
+
       # 运行构建脚本
       - name: Build VuePress site
         run: yarn docs:build
