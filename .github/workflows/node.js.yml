@@ -41,7 +41,7 @@ jobs:
 
       # 删除dist文件夹
       - name: delet dist
-        run: rm -r dist
+        run: rm -r docs/.vuepress/dist
 
       # 运行构建脚本
       - name: Build VuePress site
