@@ -4,7 +4,7 @@ heroImage: /images/home.jpg
 heroText: dulinyu
 tagline: null
 actions:
-  - text: 关于我
+  - text: 关于我的
     link: /me/guide/index.md
     type: primary
   - text: js
