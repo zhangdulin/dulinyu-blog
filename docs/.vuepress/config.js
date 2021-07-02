@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-02 09:30:38
+ * @LastEditTime: 2021-07-02 09:42:12
  * @Description:
  */
 module.exports = {
@@ -52,6 +52,12 @@ module.exports = {
 					appKey: "c8WEum2mcW0BodAEeVlOGmvK",
 					visitor: true, // 阅读量统计
 				},
+			},
+		],
+		[
+			"@vuepress/google-analytics",
+			{
+				ga: "G-EGBB3CFNDF", // UA-00000000-0
 			},
 		],
 	],
