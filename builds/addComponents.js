@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-07-01 11:17:27
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-01 13:20:27
+ * @LastEditTime: 2021-07-02 17:45:42
  * @Description:
  */
 // addComponents.js
@@ -21,3 +21,7 @@ function writeComponents(dir) {
 		});
 	}
 }
+
+// "docs:build": "vuepress build docs",
+
+// "docs:build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",

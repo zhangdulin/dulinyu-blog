@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-02 13:48:05
+ * @LastEditTime: 2021-07-02 17:38:23
  * @Description:
  */
 const { path } = require("@vuepress/utils");
@@ -105,11 +105,31 @@ module.exports = {
 		// },
 		navbar: [
 			{
+				text: "数据结构",
+				link: "/arithmetic/guide/index.md",
+			},
+			{
+				text: "算法专栏",
+				link: "/arithmetic/guide/index.md",
+			},
+			{
 				text: "javaScript",
 				link: "/javaScript/guide/index.md",
 			},
 			{
-				text: "关于我的",
+				text: "源码",
+				link: "/arithmetic/guide/index.md",
+			},
+			{
+				text: "关于我",
+				link: "/me/guide/index.md",
+			},
+			{
+				text: "读书笔记",
+				link: "/me/guide/index.md",
+			},
+			{
+				text: "其他",
 				link: "/me/guide/index.md",
 			},
 			{
@@ -212,16 +232,40 @@ module.exports = {
 				// SidebarGroup
 				{
 					isGroup: true,
-					text: "前端",
-					link: "/javaScript/frondend/",
+					text: "工具类",
+					link: "/javaScript/utils/",
 					// collapsable: false, // 可选的, 默认值是 true,
 					// sidebarDepth: 2, // 可选的, 默认值是 1
 					children: [
 						// SidebarItem
 						{
 							text: "工具类",
-							link: "/javaScript/frondend/utils.md",
+							link: "/javaScript/utils/index.md",
 							// children: [],
+						},
+					],
+				},
+			],
+			"/arithmetic/": [
+				{
+					isGroup: true,
+					text: "目录",
+					link: "/arithmetic/guide/",
+					children: [
+						{
+							text: "算法专栏",
+							link: "/arithmetic/guide/index.md",
+						},
+					],
+				},
+				{
+					isGroup: true,
+					text: "查找",
+					link: "/arithmetic/find/",
+					children: [
+						{
+							text: "概念",
+							link: "/arithmetic/find/index.md",
 						},
 					],
 				},
