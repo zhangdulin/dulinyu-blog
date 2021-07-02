@@ -3,9 +3,11 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-02 09:54:35
+ * @LastEditTime: 2021-07-02 13:48:05
  * @Description:
  */
+const { path } = require("@vuepress/utils");
+
 module.exports = {
 	lang: "zh-CN",
 	title: "dulinyu",
@@ -27,20 +29,6 @@ module.exports = {
 				},
 			},
 		],
-		// [
-		// 	"vuepress-plugin-comment",
-		// 	{
-		// 		choosen: "gitalk",
-		// 		options: {
-		// 			clientID: "46ef387a515197291c9e",
-		// 			clientSecret: "79b756aa81153e44074782d30de3f1b9090e8616",
-		// 			repo: "dulinyu-blog",
-		// 			owner: "zhangdulin",
-		// 			admin: ["zhangdulin"],
-		// 			distractionFreeMode: false,
-		// 		},
-		// 	},
-		// ],
 		[
 			"vuepress-plugin-comment",
 			{
@@ -55,15 +43,20 @@ module.exports = {
 			},
 		],
 		[
-			"@vuepress/google-analytics",
+			"@vuepress/plugin-google-analytics",
 			{
-				ga: "G-EGBB3CFNDF", // UA-00000000-0
-				id: "2680670893",
+				id: "G-EGBB3CFNDF",
+			},
+		],
+		[
+			"@vuepress/register-components",
+			{
+				componentsDir: path.resolve(__dirname, "./components"),
 			},
 		],
 	],
 	head: [
-		["link", { rel: "icon", href: "/favicon.ico" }], // 增加一个自定义的 favicon
+		["link", { rel: "icon", href: "/dulinyu-blog/favicon.ico" }], // 增加一个自定义的 favicon
 		// [("link", { rel: "manifest", href: "/manifest.json" })], //PWA 插件需要引入的manifest
 		// ["meta", { name: "theme-color", content: "#3eaf7c" }], //<meta> 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词。
 		// ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
