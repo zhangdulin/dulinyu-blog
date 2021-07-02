@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-02 09:17:08
+ * @LastEditTime: 2021-07-02 09:30:38
  * @Description:
  */
 module.exports = {
@@ -50,6 +50,7 @@ module.exports = {
 					el: "#valine-vuepress-comment",
 					appId: "wswYS4Vyz0qAfrBgTd5lQHlf-gzGzoHsz",
 					appKey: "c8WEum2mcW0BodAEeVlOGmvK",
+					visitor: true, // 阅读量统计
 				},
 			},
 		],
