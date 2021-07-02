@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-01 15:29:57
+ * @LastEditTime: 2021-07-02 09:17:08
  * @Description:
  */
 module.exports = {
@@ -27,32 +27,32 @@ module.exports = {
 				},
 			},
 		],
-		[
-			"vuepress-plugin-comment",
-			{
-				choosen: "gitalk",
-				options: {
-					clientID: "46ef387a515197291c9e",
-					clientSecret: "79b756aa81153e44074782d30de3f1b9090e8616",
-					repo: "dulinyu-blog",
-					owner: "zhangdulin",
-					admin: ["zhangdulin"],
-					distractionFreeMode: false,
-				},
-			},
-		],
 		// [
 		// 	"vuepress-plugin-comment",
 		// 	{
-		// 		choosen: "valine",
-		// 		// options选项中的所有参数，会传给Valine的配置
+		// 		choosen: "gitalk",
 		// 		options: {
-		// 			el: "#valine-vuepress-comment",
-		// 			appId: "Your own appId",
-		// 			appKey: "Your own appKey",
+		// 			clientID: "46ef387a515197291c9e",
+		// 			clientSecret: "79b756aa81153e44074782d30de3f1b9090e8616",
+		// 			repo: "dulinyu-blog",
+		// 			owner: "zhangdulin",
+		// 			admin: ["zhangdulin"],
+		// 			distractionFreeMode: false,
 		// 		},
 		// 	},
 		// ],
+		[
+			"vuepress-plugin-comment",
+			{
+				choosen: "valine",
+				// options选项中的所有参数，会传给Valine的配置
+				options: {
+					el: "#valine-vuepress-comment",
+					appId: "wswYS4Vyz0qAfrBgTd5lQHlf-gzGzoHsz",
+					appKey: "c8WEum2mcW0BodAEeVlOGmvK",
+				},
+			},
+		],
 	],
 	head: [
 		["link", { rel: "icon", href: "/favicon.ico" }], // 增加一个自定义的 favicon
