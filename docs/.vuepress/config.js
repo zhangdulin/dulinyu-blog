@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-02 09:42:12
+ * @LastEditTime: 2021-07-02 09:54:35
  * @Description:
  */
 module.exports = {
@@ -58,6 +58,7 @@ module.exports = {
 			"@vuepress/google-analytics",
 			{
 				ga: "G-EGBB3CFNDF", // UA-00000000-0
+				id: "2680670893",
 			},
 		],
 	],
