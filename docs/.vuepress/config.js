@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-02 17:38:23
+ * @LastEditTime: 2021-07-02 17:51:36
  * @Description:
  */
 const { path } = require("@vuepress/utils");
@@ -266,6 +266,10 @@ module.exports = {
 						{
 							text: "概念",
 							link: "/arithmetic/find/index.md",
+						},
+						{
+							text: "二维数组查找",
+							link: "/arithmetic/find/array.md",
 						},
 					],
 				},
