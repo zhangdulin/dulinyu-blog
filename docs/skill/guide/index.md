@@ -1,0 +1,17 @@
+<!--
+ * @Author: zhangyu
+ * @Email: zhangdulin@outlook.com
+ * @Date: 2021-06-28 10:28:16
+ * @LastEditors: zhangyu
+ * @LastEditTime: 2021-07-10 14:29:37
+ * @Description:
+-->
+
+## 小技巧
+
+生活中工作中的一些小技巧
+
+### 电脑操作相关
+
+- [windows 虚拟桌面](/skill/computer/windows/windows.md)
+- [键盘记忆](/skill/computer/key.md)

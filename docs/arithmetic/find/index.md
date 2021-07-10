@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-28 10:40:43
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-02 17:50:43
+ * @LastEditTime: 2021-07-10 09:47:03
  * @Description:
 -->
 
@@ -16,7 +16,7 @@
 ![查找!](/dulinyu-blog/arithmetic/Tq6OW3iBvRljHM4.png "查找图示")
 
 - [二维数组查找](/arithmetic/find/array.md)
-- [旋转数组的最小数字](/arithmetic/find/array.md)
+- [旋转数组的最小数字](/arithmetic/find/min.md)
 - [在排序数组中查找数字](/arithmetic/find/array.md)
 - [x 的平方根](/arithmetic/find/array.md)
 - [猜数字大小](/arithmetic/find/array.md)

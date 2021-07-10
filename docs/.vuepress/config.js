@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-02 17:51:36
+ * @LastEditTime: 2021-07-10 14:35:24
  * @Description:
  */
 const { path } = require("@vuepress/utils");
@@ -55,6 +55,12 @@ module.exports = {
 			},
 		],
 	],
+	// markdown: {
+	// 	importCode: {
+	// 		handleImportPath: (str) =>
+	// 			str.replace(/^@src/, path.resolve(__dirname, "./src")),
+	// 	},
+	// },
 	head: [
 		["link", { rel: "icon", href: "/dulinyu-blog/favicon.ico" }], // 增加一个自定义的 favicon
 		// [("link", { rel: "manifest", href: "/manifest.json" })], //PWA 插件需要引入的manifest
@@ -104,10 +110,10 @@ module.exports = {
 		// 	},
 		// },
 		navbar: [
-			{
-				text: "数据结构",
-				link: "/arithmetic/guide/index.md",
-			},
+			// {
+			// 	text: "数据结构",
+			// 	link: "/arithmetic/guide/index.md",
+			// },
 			{
 				text: "算法专栏",
 				link: "/arithmetic/guide/index.md",
@@ -116,21 +122,21 @@ module.exports = {
 				text: "javaScript",
 				link: "/javaScript/guide/index.md",
 			},
-			{
-				text: "源码",
-				link: "/arithmetic/guide/index.md",
-			},
+			// {
+			// 	text: "源码",
+			// 	link: "/arithmetic/guide/index.md",
+			// },
 			{
 				text: "关于我",
 				link: "/me/guide/index.md",
 			},
 			{
 				text: "读书笔记",
-				link: "/me/guide/index.md",
+				link: "/book/guide/index.md",
 			},
 			{
 				text: "其他",
-				link: "/me/guide/index.md",
+				link: "/skill/guide/index.md",
 			},
 			{
 				text: "CSDN",
@@ -221,11 +227,20 @@ module.exports = {
 					text: "目录",
 					link: "/javaScript/guide/",
 					children: [
-						// SidebarItem
 						{
 							text: "文章列表",
 							link: "/javaScript/guide/index.md",
-							// children: [],
+						},
+					],
+				},
+				{
+					isGroup: true,
+					text: "设计模式",
+					link: "/javaScript/designmodel/",
+					children: [
+						{
+							text: "23种设计模式说明",
+							link: "/javaScript/designmodel/index.md",
 						},
 					],
 				},
@@ -242,6 +257,17 @@ module.exports = {
 							text: "工具类",
 							link: "/javaScript/utils/index.md",
 							// children: [],
+						},
+					],
+				},
+				{
+					isGroup: true,
+					text: "正则表达式",
+					link: "/javaScript/regex/",
+					children: [
+						{
+							text: "字符匹配攻略",
+							link: "/javaScript/regex/index.md",
 						},
 					],
 				},
@@ -270,6 +296,62 @@ module.exports = {
 						{
 							text: "二维数组查找",
 							link: "/arithmetic/find/array.md",
+						},
+						{
+							text: "旋转数组的最小数字",
+							link: "/arithmetic/find/min.md",
+						},
+					],
+				},
+			],
+			"/book/": [
+				{
+					isGroup: true,
+					text: "目录",
+					link: "/book/guide/",
+					children: [
+						{
+							text: "文章列表",
+							link: "/book/guide/index.md",
+						},
+					],
+				},
+				{
+					isGroup: true,
+					text: "阅读",
+					link: "/book/index",
+					children: [
+						{
+							text: "阅读总结",
+							link: "/book/index.md",
+						},
+					],
+				},
+			],
+			"/skill/": [
+				{
+					isGroup: true,
+					text: "目录",
+					link: "/book/guide/",
+					children: [
+						{
+							text: "文章列表",
+							link: "/skill/guide/index.md",
+						},
+					],
+				},
+				{
+					isGroup: true,
+					text: "电脑操作相关",
+					link: "/skill/computer/",
+					children: [
+						{
+							text: "虚拟桌面",
+							link: "/skill/computer/windows/windows.md",
+						},
+						{
+							text: "键盘记忆",
+							link: "/skill/computer/key.md",
 						},
 					],
 				},
