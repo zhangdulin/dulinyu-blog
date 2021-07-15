@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-07-05 17:05:04
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-05 17:14:45
+ * @LastEditTime: 2021-07-13 15:13:05
  * @Description:
 -->
 
@@ -34,24 +34,22 @@ NOTE：给出的所有元素都大于 0，若数组大小为 0，请返回 0。
 ### 代码
 
 ```
-function minNumberInRotateArray(arr)
-{
-let len = arr.length;
-if(len == 0) return 0;
-let low = 0, high = len - 1;
-while(low < high) {
-let mid = low + Math.floor((high-low)/2);
-if(arr[mid] > arr[high]) {
-low = mid + 1;
-} else if(arr[mid] == arr[high]) {
-high = high - 1;
-} else {
-high = mid;
-}
-}
+function minNumberInRotateArray(arr) {
+  let len = arr.length;
+  if (len == 0) return 0;
+  let low = 0, high = len - 1;
+  while (low < high) {
+    let mid = low + Math.floor((high - low) / 2);
+    if (arr[mid] > arr[high]) {
+      low = mid + 1;
+    } else if (arr[mid] == arr[high]) {
+      high = high - 1;
+    } else {
+      high = mid;
+    }
+  }
 
-    return arr[low];
-
+  return arr[low];
 }
 ```
 
@@ -60,19 +58,19 @@ high = mid;
 二分查找
 
 ```
-        function binarySearch(data, arr, start, end) {
-            if (start > end) {
-                return -1;
-            }
-            var mid = Math.floor((end + start) / 2);
-            if (data == arr[mid]) {
-                return mid;
-            } else if (data < arr[mid]) {
-                return binarySearch(data, arr, start, mid - 1);
-            } else {
-                return binarySearch(data, arr, mid + 1, end);
-            }
-        }
+function binarySearch(data, arr, start, end) {
+    if (start > end) {
+        return -1;
+    }
+    var mid = Math.floor((end + start) / 2);
+    if (data == arr[mid]) {
+        return mid;
+    } else if (data < arr[mid]) {
+        return binarySearch(data, arr, start, mid - 1);
+    } else {
+        return binarySearch(data, arr, mid + 1, end);
+    }
+}
 ```
 
 ### 考察点

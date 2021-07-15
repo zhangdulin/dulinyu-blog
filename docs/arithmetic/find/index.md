@@ -17,7 +17,7 @@
 
 - [二维数组查找](/arithmetic/find/array.md)
 - [旋转数组的最小数字](/arithmetic/find/min.md)
-- [在排序数组中查找数字](/arithmetic/find/array.md)
+- [在排序数组中查找数字](/arithmetic/find/num.md)
 - [x 的平方根](/arithmetic/find/array.md)
 - [猜数字大小](/arithmetic/find/array.md)
 

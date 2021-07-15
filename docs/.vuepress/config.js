@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-10 14:35:24
+ * @LastEditTime: 2021-07-15 17:44:33
  * @Description:
  */
 const { path } = require("@vuepress/utils");
@@ -300,6 +300,28 @@ module.exports = {
 						{
 							text: "旋转数组的最小数字",
 							link: "/arithmetic/find/min.md",
+						},
+					],
+				},
+				{
+					isGroup: true,
+					text: "DFS和BFS",
+					link: "/arithmetic/dfsBfs/",
+					children: [
+						{
+							text: "概念",
+							link: "/arithmetic/dfsBfs/index.md",
+						},
+					],
+				},
+				{
+					isGroup: true,
+					text: "递归",
+					link: "/arithmetic/recursion/",
+					children: [
+						{
+							text: "概念",
+							link: "/arithmetic/recursion/index.md",
 						},
 					],
 				},
