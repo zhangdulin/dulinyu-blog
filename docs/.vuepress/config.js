@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-15 17:44:33
+ * @LastEditTime: 2021-07-20 17:51:21
  * @Description:
  */
 const { path } = require("@vuepress/utils");
@@ -322,6 +322,22 @@ module.exports = {
 						{
 							text: "概念",
 							link: "/arithmetic/recursion/index.md",
+						},
+						{
+							text: "斐波拉契数列",
+							link: "/arithmetic/recursion/斐波拉契数列.md",
+						},
+						{
+							text: "跳台阶",
+							link: "/arithmetic/recursion/跳台阶.md",
+						},
+						{
+							text: "变态跳台阶",
+							link: "/arithmetic/recursion/变态跳台阶.md",
+						},
+						{
+							text: "矩形覆盖",
+							link: "/arithmetic/recursion/矩形覆盖.md",
 						},
 					],
 				},
