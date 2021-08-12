@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-28 10:28:16
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-10 14:29:37
+ * @LastEditTime: 2021-08-12 16:26:33
  * @Description:
 -->
 
@@ -15,3 +15,7 @@
 
 - [windows 虚拟桌面](/skill/computer/windows/windows.md)
 - [键盘记忆](/skill/computer/key.md)
+
+### 理财
+
+- [言论](/skill/licai/gupiaoyanlun.md)

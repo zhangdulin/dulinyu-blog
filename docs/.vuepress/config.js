@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-20 17:51:21
+ * @LastEditTime: 2021-08-12 16:27:30
  * @Description:
  */
 const { path } = require("@vuepress/utils");
@@ -137,6 +137,14 @@ module.exports = {
 			{
 				text: "其他",
 				link: "/skill/guide/index.md",
+			},
+			{
+				text: "公众号",
+				link: "https://mp.weixin.qq.com/s/8DOgck2s3hhDZOLWl0oo7Q",
+			},
+			{
+				text: "知乎",
+				link: "https://www.zhihu.com/people/zhang-du-lin",
 			},
 			{
 				text: "CSDN",
@@ -390,6 +398,17 @@ module.exports = {
 						{
 							text: "键盘记忆",
 							link: "/skill/computer/key.md",
+						},
+					],
+				},
+				{
+					isGroup: true,
+					text: "理财",
+					link: "/skill/licai/",
+					children: [
+						{
+							text: "言论",
+							link: "/skill/licai/gupiaoyanlun.md",
 						},
 					],
 				},

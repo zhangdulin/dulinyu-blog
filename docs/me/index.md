@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-28 10:40:43
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-10 14:32:56
+ * @LastEditTime: 2021-08-12 16:34:11
  * @Description:
 -->
 
@@ -29,5 +29,9 @@ I am what I am
 
 creat 张国荣
 ```
+
+公众号名字：理贝才子
+公众号 id: followJesus7god
+![公众号](/dulinyu-blog/公众号.png "二维码")
 
 <Valine />
