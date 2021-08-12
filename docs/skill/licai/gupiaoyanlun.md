@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-07-29 16:54:33
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-08-12 16:34:28
+ * @LastEditTime: 2021-08-12 17:06:56
  * @Description:
 -->
 
@@ -16,6 +16,7 @@
 不仅是投资要顺应大势行情，在对待个股上，也要顺势而为。股市里每一只强势股票的出现，必然有它强势上涨的理由，股价常常是在消息公布之前就表现出来。所以，投资者在操作股票时，一定要买进强势股，抛出弱势股。只有进行顺势操作，最终才能达到投资顺利的目的。
 
 欢迎关注理财公众号
-公众号名字：理贝才子
-公众号 id: followJesus7god
-![公众号](/dulinyu-blog/公众号.png "二维码")
+
+- 公众号名字：理贝才子
+- 公众号 id: followJesus7god
+  ![公众号](/dulinyu-blog/公众号.png "二维码")
