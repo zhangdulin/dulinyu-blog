@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-08-12 16:27:30
+ * @LastEditTime: 2021-12-16 10:51:08
  * @Description:
  */
 const { path } = require("@vuepress/utils");
@@ -252,6 +252,17 @@ module.exports = {
 						},
 					],
 				},
+				{
+					isGroup: true,
+					text: "ES6",
+					link: "/javaScript/es6/",
+					children: [
+						{
+							text: "Iterator, Iterable 和 Generator",
+							link: "/javaScript/es6/Iterator.md",
+						},
+					],
+				},
 				// SidebarGroup
 				{
 					isGroup: true,
@@ -349,6 +360,44 @@ module.exports = {
 						},
 					],
 				},
+				{
+					isGroup: true,
+					text: "分治",
+					link: "/arithmetic/fenzhi/",
+					children: [
+						{
+							text: "分治",
+							link: "/arithmetic/fenzhi/index.md",
+						},
+					],
+				},
+				{
+					isGroup: true,
+					text: "回溯算法 ",
+					link: "/arithmetic/huisu/",
+					children: [
+						{
+							text: "概念",
+							link: "/arithmetic/huisu/index.md",
+						},
+						{
+							text: "二叉树中和为某一值的路径",
+							link: "/arithmetic/huisu/二叉树中和为某一值的路径.md",
+						},
+						{
+							text: "字符串的排列",
+							link: "/arithmetic/huisu/字符串的排列.md",
+						},
+						{
+							text: "和为sum的n个数",
+							link: "/arithmetic/huisu/和为sum的n个数.md",
+						},
+						{
+							text: "矩阵中的路径",
+							link: "/arithmetic/huisu/矩阵中的路径.md",
+						},
+					],
+				},
 			],
 			"/book/": [
 				{
@@ -407,7 +456,7 @@ module.exports = {
 					link: "/skill/licai/",
 					children: [
 						{
-							text: "言论",
+							text: "言论自由",
 							link: "/skill/licai/gupiaoyanlun.md",
 						},
 					],

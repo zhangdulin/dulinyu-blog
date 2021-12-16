@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-07-05 17:05:04
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-13 15:13:05
+ * @LastEditTime: 2021-08-24 16:14:30
  * @Description:
 -->
 
@@ -57,19 +57,19 @@ function minNumberInRotateArray(arr) {
 
 二分查找
 
-```
+```js
 function binarySearch(data, arr, start, end) {
-    if (start > end) {
-        return -1;
-    }
-    var mid = Math.floor((end + start) / 2);
-    if (data == arr[mid]) {
-        return mid;
-    } else if (data < arr[mid]) {
-        return binarySearch(data, arr, start, mid - 1);
-    } else {
-        return binarySearch(data, arr, mid + 1, end);
-    }
+	if (start > end) {
+		return -1;
+	}
+	var mid = Math.floor((end + start) / 2);
+	if (data == arr[mid]) {
+		return mid;
+	} else if (data < arr[mid]) {
+		return binarySearch(data, arr, start, mid - 1);
+	} else {
+		return binarySearch(data, arr, mid + 1, end);
+	}
 }
 ```
 
@@ -77,3 +77,4 @@ function binarySearch(data, arr, start, end) {
 
 查找
 数组
+<Gitalk />
