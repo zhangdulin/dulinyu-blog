@@ -290,6 +290,29 @@ module.exports = {
 						},
 					],
 				},
+				{
+					isGroup: true,
+					text: "学习笔记",
+					link: "/javaScript/learn/",
+					children: [
+						{
+							text: "重学前端",
+							link: "/javaScript/learn/index.md",
+						},
+						{
+							text: "p1",
+							link: "/javaScript/learn/list/p1.md",
+						},
+						{
+							text: "p2",
+							link: "/javaScript/learn/list/p2.md",
+						},
+						{
+							text: "p3",
+							link: "/javaScript/learn/list/p3.md",
+						},
+					],
+				},
 			],
 			"/arithmetic/": [
 				{
