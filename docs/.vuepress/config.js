@@ -436,11 +436,11 @@ module.exports = {
 				},
 				{
 					isGroup: true,
-					text: "阅读",
+					text: "简录",
 					link: "/book/index",
 					children: [
 						{
-							text: "阅读总结",
+							text: "简录",
 							link: "/book/index.md",
 						},
 					],
