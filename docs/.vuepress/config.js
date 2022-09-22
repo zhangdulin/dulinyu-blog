@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-12-16 10:51:08
+ * @LastEditTime: 2022-09-22 09:54:34
  * @Description:
  */
 const { path } = require("@vuepress/utils");
@@ -260,6 +260,31 @@ module.exports = {
 						{
 							text: "Iterator, Iterable 和 Generator",
 							link: "/javaScript/es6/Iterator.md",
+						},
+					],
+				},
+				// GoogleV8
+				{
+					isGroup: true,
+					text: "GoogleV8",
+					link: "/javaScript/GoogleV8/",
+					children: [
+						{
+							text: "GoogleV8",
+							link: "/javaScript/GoogleV8/index.md",
+						},
+					],
+				},
+				// wx
+				// GoogleV8
+				{
+					isGroup: true,
+					text: "微信小程序",
+					link: "/javaScript/wx/",
+					children: [
+						{
+							text: "微信小程序",
+							link: "/javaScript/wx/index.md",
 						},
 					],
 				},
