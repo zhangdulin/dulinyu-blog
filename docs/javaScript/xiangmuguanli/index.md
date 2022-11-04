@@ -3,15 +3,15 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2022-09-21 18:51:48
  * @LastEditors: zhangyu
- * @LastEditTime: 2022-11-04 09:35:45
+ * @LastEditTime: 2022-11-04 11:16:25
  * @Description: 
 -->
 
-## 郭东白的架构课
+## 项目管理
 
-- [没有战略意图，就成不了一个顶尖的架构师](./list/p1.md)
-- [生存法则](./list/p2.md)
-- [](./list/p3.md)
+- [开篇](./list/p1.md)
+- [常识](./list/p2.md)
+- [硬技能](./list/p3.md)
 - [](./list/p4.md)
 - [](./list/p5.md)
 - [](./list/p6.md)
