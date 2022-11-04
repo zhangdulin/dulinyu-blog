@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2022-09-22 09:54:34
+ * @LastEditTime: 2022-11-04 09:36:39
  * @Description:
  */
 const { path } = require("@vuepress/utils");
@@ -272,6 +272,18 @@ module.exports = {
 						{
 							text: "GoogleV8",
 							link: "/javaScript/GoogleV8/index.md",
+						},
+					],
+				},
+				// ArchitectureClass
+				{
+					isGroup: true,
+					text: "架构课",
+					link: "/javaScript/ArchitectureClass/",
+					children: [
+						{
+							text: "架构课",
+							link: "/javaScript/ArchitectureClass/index.md",
 						},
 					],
 				},
