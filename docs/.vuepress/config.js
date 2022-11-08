@@ -287,6 +287,18 @@ module.exports = {
 						},
 					],
 				},
+					// ArchitectureClass
+					{
+						isGroup: true,
+						text: "项目管理",
+						link: "/javaScript/xiangmuguanli/",
+						children: [
+							{
+								text: "项目管理",
+								link: "/javaScript/xiangmuguanli/index.md",
+							},
+						],
+					},
 				// wx
 				// GoogleV8
 				{
