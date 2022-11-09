@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-28 10:40:43
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-12-16 10:54:47
+ * @LastEditTime: 2022-11-09 20:23:21
  * @Description:
 -->
 
@@ -15,7 +15,7 @@
 
 回溯法解决的问题的所有选项可以用树状结构表示。
 
-![回溯!](/dulinyu-blog/arithmetic/GZkQ7gx9CHsb2hd.png "回溯图示")
+![回溯!](../image/GZkQ7gx9CHsb2hd.png "回溯图示")
 
 在某一步有 n 个可能的选项，该步骤可看作树中一个节点。
 节点每个选项看成节点连线，到达它的 n 个子节点。

@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-28 10:40:43
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-15 15:32:22
+ * @LastEditTime: 2022-11-09 20:22:43
  * @Description:
 -->
 
@@ -30,7 +30,7 @@
 
 与 BFS 不同，更早访问的结点可能不是更靠近根结点的结点。因此，你在 DFS 中找到的第一条路径可能不是最短路径。
 
-![BFS&DFS](/dulinyu-blog/arithmetic/uNAkPfLY9HRjVQU.png "深度优先搜索")
+![BFS&DFS](../image/uNAkPfLY9HRjVQU.png "深度优先搜索")
 
 在 DFS 中，结点的处理顺序是完全相反的顺序，就像它们被添加到栈中一样，它是后进先出。所以深度优先搜索一般使用栈实现。
 
