@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-07-29 16:54:33
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-08-12 17:06:56
+ * @LastEditTime: 2022-11-14 14:07:16
  * @Description:
 -->
 
@@ -19,4 +19,4 @@
 
 - 公众号名字：理贝才子
 - 公众号 id: followJesus7god
-  ![公众号](/dulinyu-blog/公众号.png "二维码")
+  ![公众号](../../image/公众号.png "二维码")

@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-07-10 13:50:04
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-07-10 14:05:28
+ * @LastEditTime: 2022-11-14 14:01:18
  * @Description:
 -->
 
@@ -19,8 +19,8 @@
 
       自(zì)行(xíng)车(chē)未(V谐音未)帮(bāng)你(nǐ)买(mǎi)。
 
-![爱上一个不爱回家的人!](/dulinyu-blog/key/54994143_1.jpg "爱上一个不爱回家的人")
-![爱上一个不爱回家的人!](/dulinyu-blog/key/54994143_3.gif "爱上一个不爱回家的人")
+![爱上一个不爱回家的人!](../image/54994143_1.jpg "爱上一个不爱回家的人")
+![爱上一个不爱回家的人!](../image/54994143_3.gif "爱上一个不爱回家的人")
 
 整篇口诀联想：
 

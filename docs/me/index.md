@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-28 10:40:43
  * @LastEditors: zhangyu
- * @LastEditTime: 2021-08-12 17:06:45
+ * @LastEditTime: 2022-11-14 14:07:36
  * @Description:
 -->
 
@@ -32,6 +32,6 @@ creat 张国荣
 
 - 公众号名字：理贝才子
 - 公众号 id: followJesus7god
-  ![公众号](/dulinyu-blog/公众号.png "二维码")
+  ![公众号](../image/公众号.png "二维码")
 
 <Valine />
