@@ -24,6 +24,7 @@
 		"@vuepress/plugin-register-components": "2.0.0-beta.20",
 		"@vuepress/plugin-search": "2.0.0-beta.20",
 		"vuepress": "2.0.0-beta.20",
+		"vuepress-plugin-autobar": "github:boboidream/vuepress-bar",
 		"vuepress-plugin-comment": "0.7.3"
 	},
 	"dependencies": {
