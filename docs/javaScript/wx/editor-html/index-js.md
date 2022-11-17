@@ -1,3 +1,4 @@
+```js
 // components/editor-html/index.js
 /*
  * @Author: zhangyu
@@ -232,3 +233,4 @@ Component({
     },
   }
 })
+```
