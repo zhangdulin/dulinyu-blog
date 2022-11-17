@@ -2,7 +2,7 @@
 <html lang="zh-CN">
   <head>
     <link rel="icon" href="/dulinyu-blog/favicon.ico"><title>dulinyu</title><meta name="description" content="blog"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="VuePress 2.0.0-beta.20">
-    <link rel="preload" href="/dulinyu-blog/assets/js/runtime~app.b694d96c.js" as="script"><link rel="preload" href="/dulinyu-blog/assets/css/styles.58c7c6da.css" as="style"><link rel="preload" href="/dulinyu-blog/assets/js/2939.f6cf7f85.js" as="script"><link rel="preload" href="/dulinyu-blog/assets/js/app.0f3fdb64.js" as="script">
+    <link rel="preload" href="/dulinyu-blog/assets/js/runtime~app.3c730440.js" as="script"><link rel="preload" href="/dulinyu-blog/assets/css/styles.58c7c6da.css" as="style"><link rel="preload" href="/dulinyu-blog/assets/js/2939.f6cf7f85.js" as="script"><link rel="preload" href="/dulinyu-blog/assets/js/app.0f3fdb64.js" as="script">
     <link rel="stylesheet" href="/dulinyu-blog/assets/css/styles.58c7c6da.css">
   </head>
   <body>
@@ -22,6 +22,6 @@
     <span class="token punctuation">}</span> 
 <span class="token punctuation">}</span>  
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>Obj+3执行这段代码，你觉得应该返回什么内容呢？上面我们介绍过了，由于需要先使用 ToPrimitive 方法将 Obj 转换为原生类型，而 ToPrimitive 会优先调用对象中的 valueOf 方法，由于 valueOf 返回了 100，那么 Obj 就会被转换为数字 100，那么数字 100 加数字 3，那么结果当然是 103 了。</p><h3 id="如何构建和使用v8的调试工具d8" tabindex="-1"><a class="header-anchor" href="#如何构建和使用v8的调试工具d8" aria-hidden="true">#</a> 如何构建和使用V8的调试工具d8？</h3><p>d8 是一个非常有用的调试工具，你可以把它看成是 debug for V8 的缩写。我们可以使用 d8 来查看 V8 在执行 JavaScript 过程中的各种中间数据，比如作用域、AST、字节码、优化的二进制代码、垃圾回收的状态，还可以使用 d8 提供的私有 API 查看一些内部信息。 d8 是个非常有用的调试工具，能够帮助我们发现我们的代码是否可以被 V8 高效地执行，比如通过 d8 查看代码有没有被 JIT 编译器优化，还可以通过 d8 内置的一些接口查看更多的代码内部信息，而且通过使用 d8，我们会接触各种实际的优化策略，学习这些策略并结合 V8 的工作原理，可以让我们更加接地气地了解 V8 的工作机制。 通过源码来构建 d8 的流程比较简单，首先下载 V8 的编译工具链：depot_tools，然后再利用 depot_tools 下载源码、生成工程、编译工程，这就实现了通过源码编译 d8。这个过程不难，但涉及到了许多工具，在配置过程中可能会遇到一些坑，不过按照流程操作应该能顺利编译出来 d8。</p><div class="gitalk-container"><div id="gitalk-container"></div></div><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><span class="meta-item-info">2022/11/1 下午2:50:34</span></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: zhangyu2207@yundasys.com">zhangyu2207</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main></div><!----><!--]--></div>
-    <script src="/dulinyu-blog/assets/js/runtime~app.b694d96c.js" defer></script><script src="/dulinyu-blog/assets/js/2939.f6cf7f85.js" defer></script><script src="/dulinyu-blog/assets/js/app.0f3fdb64.js" defer></script>
+    <script src="/dulinyu-blog/assets/js/runtime~app.3c730440.js" defer></script><script src="/dulinyu-blog/assets/js/2939.f6cf7f85.js" defer></script><script src="/dulinyu-blog/assets/js/app.0f3fdb64.js" defer></script>
   </body>
 </html>
