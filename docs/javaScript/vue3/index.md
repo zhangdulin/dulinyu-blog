@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2022-09-21 18:51:48
  * @LastEditors: zhangyu
- * @LastEditTime: 2023-02-06 10:34:06
+ * @LastEditTime: 2023-02-18 16:12:17
  * @Description: 
 -->
 
@@ -16,6 +16,8 @@
 - [全家桶实战篇](./list/p4.md)
 - [加餐：好项目和ts]](./list/p5.md)
 - [进阶](./list/p6.md)
+- [生态源码](./list/p7.md)
+
 
 
 <Gitalk />

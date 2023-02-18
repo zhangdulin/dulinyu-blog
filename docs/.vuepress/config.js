@@ -3,7 +3,7 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2021-06-16 14:17:37
  * @LastEditors: zhangyu
- * @LastEditTime: 2022-11-17 14:05:05
+ * @LastEditTime: 2023-02-18 15:24:53
  * @Description:
  */
 const { path } = require("@vuepress/utils");
@@ -95,8 +95,11 @@ module.exports = {
 	],
 	// 原文链接：https://blog.csdn.net/loveshanqian/article/details/106332636
 	themeConfig: {
-		home: "/",
-		// displayAllHeaders: true, // 默认值：false
+		title: "dulinyu",
+		description: "blog",
+		base: "/dulinyu-blog/", // 设置站点根路径
+		// home: "/",
+		displayAllHeaders: false, // 默认值：false
 		logo: "/images/home.jpg",
 		// 如果你按照 `organization/repository` 的格式设置它
 		// 我们会将它作为一个 GitHub 仓库
