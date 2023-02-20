@@ -3,12 +3,12 @@
  * @Email: zhangdulin@outlook.com
  * @Date: 2022-09-21 18:51:48
  * @LastEditors: zhangyu
- * @LastEditTime: 2023-02-18 16:12:17
+ * @LastEditTime: 2023-02-20 15:49:59
  * @Description: 
 -->
 
 ## 玩转 Vue 3 全家桶
-![知识体系](./img/b8fa99b00f432b7df6d3a292ec0a8095.webp "知识体系")
+![知识体系](./img/b8fa99b00f432b7df6d3a292ec0a8095.jpg "知识体系")
 
 - [开篇词 | 如何借助Vue 3建构你的前端知识体系？](./list/p1.md)
 - [课程导读](./list/p2.md)
