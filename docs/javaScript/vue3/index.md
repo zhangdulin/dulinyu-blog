@@ -17,8 +17,9 @@
 - [加餐：好项目和ts]](./list/p5.md)
 - [进阶](./list/p6.md)
 - [生态源码-响应式系统](./list/p7.md)
-- [生态源码-响应式系统](./list/p8.md)
-
+- [运行时：Vue在浏览器里是怎么跑起来的](./list/p8.md)
+- [虚拟DOM（上）：如何通过虚拟DOM更新页面？](./list/p9.md)
+- [Vue 3 Compiler](./list/p10.md)
 
 
 <Gitalk />
