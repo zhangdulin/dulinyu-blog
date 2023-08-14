@@ -24,4 +24,9 @@
 切换虚拟桌面：Win + Ctrl +左/右
 
 若要在桌面之间切换，请再次选择“任务视图”。
+
+### vscode 
+vscode 
+ctrl + f12 函数实现
+shift + f12 函数引用
 <Valine />
